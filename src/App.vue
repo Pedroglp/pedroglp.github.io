@@ -61,6 +61,8 @@ export default {
   top: 0;
   right: 0;
   cursor: pointer;
+  margin-top: -8px;
+  margin-right: -8px;
 }
 
 h1 {
@@ -93,8 +95,8 @@ p {
   height: 50px;
   text-align: center;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 5px;
+  right: 5px;
   box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
 
 }
