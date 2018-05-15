@@ -124,4 +124,64 @@ p {
   margin-top: 10px;
 }
 
+.avatar-bg-lg {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  max-width: 100%;
+  display: none;
+}
+
+@media (min-width: 768px) { 
+  .lg {
+    display: inline;
+  }
+
+  .callme-box {
+    display: none;
+  }
+
+  .avatar > img {
+    position: relative;
+    border-radius: 50%;
+    height: 40vh;
+    margin-top: 20vh;
+    z-index: 2;
+  }
+
+  .avatar p{
+    font-size: 1.4em;
+  }
+
+  .avatar-bg {
+    display: none;
+  }
+
+  .avatar-bg-lg {
+    display: inline;
+  }
+
+  .icons{
+    font-size: 2em;
+    padding: 0 7px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 18em;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+
+}
+
 </style>
