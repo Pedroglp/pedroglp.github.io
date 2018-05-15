@@ -21,6 +21,9 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import 'assets/css/animate.css';
 
+body{
+  margin: 0 0 0 0;
+}
 
 #app {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -42,14 +45,27 @@ export default {
 }
 
 .avatar > img {
+  position: relative;
   border-radius: 50%;
   height: 30vh;
   margin-top: 4vh;
+  z-index: 2;
 }
 
 .avatar p{
   text-align: center;
   margin: 0.7vh 3vw;
+}
+
+.avatar-bg{
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+
 }
 
 .language-menu{
@@ -61,8 +77,9 @@ export default {
   top: 0;
   right: 0;
   cursor: pointer;
-  margin-top: -8px;
-  margin-right: -8px;
+  z-index: 1;
+  border: solid white 2px;
+  border-top: 0px;
 }
 
 h1 {
@@ -90,21 +107,19 @@ p {
 .callme-box {
   z-index: 1;
   border-radius: 50%;
-  background-color: black;
+  background-color: #484848;
   width: 50px;
   height: 50px;
   text-align: center;
   position: fixed;
   bottom: 5px;
-  right: 5px;
+  right: 25px;
   box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
-
 }
 
 .callme-icon{
   color: white;
   font-size: 1.6em;
-  color: white;
   margin-top: 10px;
 }
 
