@@ -2,6 +2,7 @@
   <div class="hello animated fadeInUp">
     <div class = "language-menu" @click="changeLanguage()">{{language}}</div>
     <img class="avatar-bg" src="../assets/bg2.svg"/>
+    <img class="avatar-bg-lg" src="../assets/bg4.svg"/>
     <div class="avatar">
       <img src="../assets/eufb.jpg"/>
       <p>Pedro Gabriel</p>
