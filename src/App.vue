@@ -80,6 +80,7 @@ body{
   z-index: 1;
   border: solid white 2px;
   border-top: 0px;
+  border-right: 0px;
 }
 
 h1 {
