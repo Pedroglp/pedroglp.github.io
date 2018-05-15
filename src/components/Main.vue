@@ -1,8 +1,9 @@
 <template>
   <div class="hello animated fadeInUp">
     <div class = "language-menu" @click="changeLanguage()">{{language}}</div>
+    <img class="avatar-bg" src="../assets/bg2.svg"/>
     <div class="avatar">
-      <img class="" src="../assets/eufb.jpg"/>
+      <img src="../assets/eufb.jpg"/>
       <p>Pedro Gabriel</p>
       <p>{{content.avatar.role}}</p>
     </div>
