@@ -10,7 +10,7 @@
     </div>
     <div class="icons">
       <a href="https://www.github.com/pedroglp" class="fab fa-github-square icon" target="_blank"></a>
-      <a href="https://www.linkedin.com/pedroglp" class="fab fa-linkedin icon" target="_blank"></a> 
+      <a href="https://www.linkedin.com/in/pedroglp/" class="fab fa-linkedin icon" target="_blank"></a> 
       <a href="https://facebok.com/pedroglp" class="fab fa-facebook-square icon" target="_blank"></a>
       <a href="mailto:pedrogabriellancelloti@poli.ufrj.br" class="fas fa-envelope-square icon"></a>
     </div>
