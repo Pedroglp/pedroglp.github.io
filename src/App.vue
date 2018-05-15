@@ -170,6 +170,11 @@ p {
     padding: 0 7px;
   }
 
+  hr {
+    margin: 2.5vh 6vw;
+    color: #bdbdbd;
+  }
+
   h1 {
     font-size: 1.8em;
   }
@@ -179,6 +184,7 @@ p {
   }
 
   p {
+    margin: 2.5vh 6vw;
     font-size: 1.4em;
   }
 
