@@ -171,11 +171,7 @@ p {
   }
 
   h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
-    font-size: 18em;
+    font-size: 3.0em;
   }
 
   p {
