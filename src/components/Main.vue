@@ -18,30 +18,21 @@
     <carousel :perPage="1">
       <slide>
         <h1>
-          {{content.about.title}}
+          <div v-html="content.about.title"></div>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
-        </p>
+          <div class="paragraph" v-html="content.about.text"></div>
       </slide>
       <slide>
         <h1>
-          {{content.experiences.title}}
+          <div v-html="content.experiences.title"></div>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
-        </p>
+          <div class="paragraph" v-html="content.experiences.text"></div>
       </slide>
       <slide>
         <h1>
-          {{content.skills.title}}
+          <div v-html="content.skills.title"></div>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
-        </p>
+          <div class="paragraph" v-html="content.skills.text"></div>
       </slide>
     </carousel>
     <div class = "callme-box">

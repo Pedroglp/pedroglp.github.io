@@ -91,7 +91,16 @@ h1 {
 }
 
 h2 {
-  margin: 2.5vh 0vh;
+  font-size: 1.0em;
+}
+
+.paragraph {
+  text-align: left;
+  margin: 2.5vh 3vw;
+}
+
+.paragraph li {
+  margin: 2vh 1vw;
 }
 
 hr {
@@ -102,7 +111,6 @@ hr {
 p {
   text-align: justify;
   text-justify: inter-word;
-  margin: 2.5vh 3vw;
 }
 
 .callme-box {
@@ -112,9 +120,9 @@ p {
   width: 50px;
   height: 50px;
   text-align: center;
-  position: fixed;
-  bottom: 5px;
-  right: 25px;
+  position: sticky;
+  bottom: 3vh;
+  left: 80vw;
   box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -179,9 +187,21 @@ p {
     font-size: 3.0em;
   }
 
+  h2{
+    font-size: 1.6em;
+  }
+
   p {
     margin: 2.5vh 6vw;
     font-size: 1.4em;
+  }
+
+  .language-menu{
+    font-size: 1.2em;
+    width: 60px;
+    border: solid white 4px;
+    border-top: 0px;
+    border-right: 0px;
   }
 
 }
