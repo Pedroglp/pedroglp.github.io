@@ -6,7 +6,7 @@ export default {
         avatar: {role:'Full Stack Developer'}
     },
     pt:{
-        about: {title: 'Sobre Mim', text:'<p>Recém formado pela Universidade Federal do Rio de Janeiro,apaixonado por novas tecnologias e pensar em suas aplicações para o mercado.  Durante os projetos,  busca desenvolver utilizando as boas práticas de programação como DRY e TDD. Sempre busca participar dos processos criativos,  visando aprendizado e crescimento pessoal.</p>'},
+        about: {title: 'Sobre Mim', text:'<p>Recém formado pela Universidade Federal do Rio de Janeiro, apaixonado por novas tecnologias e pensar em suas aplicações para o mercado.  Durante os projetos,  busca desenvolver utilizando as boas práticas de programação como DRY e TDD. Sempre busca participar dos processos criativos,  visando aprendizado e crescimento pessoal.</p>'},
         experiences: {title: 'Experiências', text:`<h2>T.T Burger Alimentos (2016-2018)</h2>
                                                     <p>Durante a minha trajetória na empresa sempre tive muita liberdade, o que me rendeu
                                                     experiências muito completas que incluiam o processo de desenho da solução até sua implementação final.</p>
