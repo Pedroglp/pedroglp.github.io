@@ -15,7 +15,7 @@
       <a href="mailto:pedrogabriellancelloti@poli.ufrj.br" class="fas fa-envelope-square icon"></a>
     </div>
     <hr></hr>
-    <carousel :perPage="1">
+    <carousel :perPage="1" :minSwipeDistance="13">
       <slide>
         <h1>
           <div v-html="content.about.title"></div>
