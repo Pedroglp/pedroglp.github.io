@@ -113,6 +113,18 @@ p {
   text-justify: inter-word;
 }
 
+.container-skills{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.icons-text{
+  max-height: 10vh;
+  max-width: 80vw;
+}
+
 .callme-box {
   z-index: 1;
   border-radius: 50%;
@@ -197,6 +209,13 @@ p {
     border-top: 0px;
     border-right: 0px;
   }
+
+  .container-skills{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto;
+  } 
 
 }
 

@@ -11,12 +11,40 @@ export default {
                                                     <p>Durante a minha trajetória na empresa sempre tive muita liberdade, o que me rendeu
                                                     experiências muito completas que incluiam o processo de desenho da solução até sua implementação final.</p>
                                                     <p>Nesses dois anos em que percorri de estagiário até minha efetivação, posso citar alguns projetos como:</p>
-                                                    <p><b>EncanTT</b> - Aplicativo Android, com Backend em utilizando Django Rest Framework e Banco de Dados Postgresql.</p>
+                                                    <p><b>EncanTT</b> - Aplicativo Android, com Backend em utilizando Django Rest Framework e Banco de Dados Posgresql.</p>
                                                     <p><b>QRobbie</b> - Gerador de Códigos QR para autenticação de ofertas integrado com o Banco de Dados do EncanTT.</p>
                                                     <p><b>ChatBoTT</b> - Chatbot para realização de pedidos via Facebook utilizando ClaudiaJS, DynamoDB com arquitetura em Microserviços.</p>
                                                     <p><b>Portal Interno</b> - Portal Web (Django) para administração da Empresa Integrado com as soluções acima.</p>
                                                     <p><b>Metabase</b> - Para auxiliar nas decisões estratégicas, sugeri a utilização do Metabase como ferrramenta de B.I. e integrei com nosso Banco de Dados.</p>`},
-        skills: {title: 'Habilidades', text:''},
+        skills: {title: 'Habilidades', text:`<div class="container-skills">
+                                                <div>
+                                                <h2>Front End</h2>
+                                                <img class="icons-text" src="/dist/html5.png" alt="HTML5" title="HTML5"></i>
+                                                <img class="icons-text" src="/dist/css3.png" alt="CSS3" title="CSS3"></i>
+                                                <img class="icons-text" src="/dist/bootstrap4.png" alt="Bootstrap4" title="Bootstrap4"></i>
+                                                <br>
+                                                <img class="icons-text" src="/dist/vuejs.png" alt="VueJs" title="VueJS"></i>
+                                                <br>
+                                                <img class="icons-text" src="/dist/android.png" alt="Android" title="Android"></i>
+                                                </div>
+                                                <div>
+                                                <h2>Back End</h2>
+                                                <img class="icons-text" src="/dist/flaskic.png" alt="Flask" title="Flask"></i>
+                                                <br>
+                                                <img class="icons-text" src="/dist/django.png" alt="Django" title="Django"></i>
+                                                <br>
+                                                <img class="icons-text" src="/dist/node.png" alt="Node" title="NodeJs"></i>
+                                                </div>
+                                                <div>
+                                                <h2>Outros</h2>
+                                                <img class="icons-text" src="/dist/aws.png" alt="AWS" title="AWS"></i>
+                                                <br>
+                                                <img class="icons-text" src="/dist/mongodb.jpg" alt="MongoDB" title="MongoDB"></i>
+                                                <br>
+                                                <img class="icons-text" src="/dist/posgresql.png" alt="Posgresql" title="Posgresql"></i>
+                                                </div>
+                                            </div>
+                                            `},
         avatar: {role:'Desenvolvedor Full Stack'}
     }
 }
