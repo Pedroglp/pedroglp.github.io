@@ -91,7 +91,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.0em;
+  font-size: 1.4em;
 }
 
 .paragraph {
@@ -121,7 +121,7 @@ p {
 }
 
 .icons-text{
-  max-height: 10vh;
+  max-height: 50px;
   max-width: 80vw;
 }
 
@@ -154,6 +154,14 @@ p {
   width: 100vw;
   max-width: 100%;
   display: none;
+}
+
+.footer {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  background-color: #484848;
+  height: 50px;
 }
 
 @media (min-width: 768px) { 
@@ -195,14 +203,14 @@ p {
   }
 
   h2{
-    font-size: 1.6em;
+    font-size: 1.7em;
   }
 
   p {
     font-size: 1.4em;
   }
 
-  .language-menu{
+  .language-menu {
     font-size: 1.2em;
     width: 60px;
     border: solid white 4px;
@@ -210,12 +218,21 @@ p {
     border-right: 0px;
   }
 
-  .container-skills{
+  .container-skills {
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: auto;
   } 
+
+  .icons-text {
+    max-height: 80px;
+    max-width: 80vw;
+  }
+
+  .footer {
+    display: inline;
+  }
 
 }
 

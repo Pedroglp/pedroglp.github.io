@@ -15,7 +15,7 @@
       <a href="mailto:pedrogabriellancelloti@poli.ufrj.br" class="fas fa-envelope-square icon"></a>
     </div>
     <hr></hr>
-    <carousel :perPage="1" :minSwipeDistance="13">
+    <carousel :perPage="1" :minSwipeDistance=18>
       <slide>
         <h1>
           <div v-html="content.about.title"></div>
@@ -35,6 +35,9 @@
           <div class="paragraph" v-html="content.skills.text"></div>
       </slide>
     </carousel>
+    <div class="footer">
+    
+    </div>
     <div class = "callme-box">
       <a  href="tel:+5521989106926" class="fas fa-phone icon callme-icon"></a>
     </div>
