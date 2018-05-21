@@ -209,10 +209,11 @@ p {
 
   h2{
     font-size: 1.7em;
+    margin: 2.5vh 3vw;
   }
 
   p {
-    margin: 2.5vh 6vw;
+    margin: 2.5vh 3vw;
     font-size: 1.4em;
   }
 
